@@ -30,56 +30,45 @@ MySQL/PostgreSQL
 Installation
 Clone the repository:
 
-bash
-Копіювати код
+
 git clone https://github.com/yourusername/ai-powered-finance-manager.git
 cd ai-powered-finance-manager
 Backend Setup:
 
 Navigate to the backend directory:
 
-bash
-Копіювати код
+
 cd backend
 Create a virtual environment and activate it:
 
-bash
-Копіювати код
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install the required Python packages:
 
-bash
-Копіювати код
+
 pip install -r requirements.txt
 Set up the database:
 
-bash
-Копіювати код
+
 python manage.py migrate  # For Django
 flask db upgrade          # For Flask
 Start the backend server:
 
-bash
-Копіювати код
+
 python manage.py runserver  # For Django
 flask run                   # For Flask
 Frontend Setup:
 
 Navigate to the frontend directory:
 
-bash
-Копіювати код
 cd ../frontend
 Install the required npm packages:
 
-bash
-Копіювати код
+
 npm install
 Start the frontend server:
 
-bash
-Копіювати код
 npm start
 API Configuration
 To integrate with financial data APIs like Plaid or Yodlee:
@@ -88,8 +77,7 @@ Sign up for an API key from Plaid or Yodlee.
 
 Set your API keys in the .env file in the backend directory:
 
-bash
-Копіювати код
+
 PLAID_CLIENT_ID=your-client-id
 PLAID_SECRET=your-secret
 Usage
