@@ -1,9 +1,9 @@
 AI-Powered Personal Finance Manager
 
-Overview
+**Overview**
 The AI-Powered Personal Finance Manager is a web-based platform designed to help users manage their personal finances intelligently. Utilizing machine learning, the application categorizes transactions, analyzes spending patterns, and provides personalized financial advice to help users save money and make better financial decisions.
 
-Features
+**Features**
 User Authentication: Secure login and registration with JWT.
 Dashboard: Real-time overview of the user's financial status, including balance, recent transactions, and monthly summaries.
 Transaction Categorization: Automatic categorization of transactions using machine learning models.
