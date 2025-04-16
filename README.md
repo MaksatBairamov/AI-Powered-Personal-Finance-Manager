@@ -200,8 +200,8 @@ Contact
 For any questions or support, please contact:
 
 Maksat Bairamov
-Email: bairamov.maksat@gmail.com
-LinkedIn: Maksat Bairamov
+- **Email:** bairamov.maksat@gmail.com
+- **LinkedIn:** Maksat Bairamov
 
 Acknowledgments
 Plaid: For providing secure financial data APIs.
