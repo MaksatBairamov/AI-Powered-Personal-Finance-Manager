@@ -199,7 +199,7 @@ This project is licensed under the MIT License.
 Contact
 For any questions or support, please contact:
 
-Maksat Bairamov
+** Maksat Bairamov **
 - **Email:** bairamov.maksat@gmail.com
 - **LinkedIn:** Maksat Bairamov
 
