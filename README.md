@@ -35,55 +35,68 @@ The AI-Powered Personal Finance Manager is a web-based platform that empowers us
 ```bash
 git clone https://github.com/MaksatBairamov/ai-powered-finance-manager.git
 cd ai-powered-finance-manager
-
+```
 
 2. Backend Setup
 Navigate to the backend directory:
-
+```
 cd backend
+```
 Create and activate a virtual environment:
 
-
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 Install Python dependencies:
-
+```
 pip install -r requirements.txt
+```
 Set up the database:
 
-
+```
 # For Django:
 python manage.py migrate
+```
 
+```
 # For Flask:
 flask db upgrade
+```
+
 Start the backend server:
 
-
+```
 # For Django:
 python manage.py runserver
-
+```
+```
 # For Flask:
 flask run
+```
+
+
 3. Frontend Setup
 Navigate to the frontend directory:
 
-
+```
 cd ../frontend
+```
 Install npm packages:
-
-
+```
 npm install
+```
+
 Start the frontend server:
-
-
+```
 npm start
+```
+
 API Configuration
 Sign up and acquire API keys from Plaid or Yodlee.
 
 Configure the backend by adding your API keys to the .env file in the backend directory:
-
 
 PLAID_CLIENT_ID=your-client-id
 PLAID_SECRET=your-secret
@@ -99,7 +112,7 @@ Receive Insights: Get personalized savings recommendations and real-time notific
 Project Dependencies
 Frontend
 The package.json includes the following key dependencies:
-{
+```{
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -141,9 +154,11 @@ The package.json includes the following key dependencies:
     ]
   }
 }
+```
+
 Backend
 Key Python packages for the backend include:
-
+```
 Django>=3.2 or Flask (choose based on your stack)
 
 djangorestframework>=3.12 (if using Django)
@@ -157,22 +172,25 @@ pandas
 numpy
 
 plaid-python
-
+```
 Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
 
 Create a new branch:
-
+```
 git checkout -b feature-branch
+```
 Commit your changes:
 
-
+```
 git commit -m 'Add new feature'
+```
 Push your branch:
-
+```
 git push origin feature-branch
+```
 Open a Pull Request for review.
 
 License
